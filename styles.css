@@ -7,6 +7,19 @@
     padding-bottom: 2rem;
 }
 
+.navbar-brand:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+.navbar-collapse{
+    padding-top: 1rem;
+}
+
+.my-brand{
+    padding-top: 2.7rem;
+}
+
 .navbar-home .navbar-nav > li > a {
     color: #fff;
 }
@@ -27,7 +40,15 @@
 
 .pizza-types{
 	margin-top: 3rem;
-	margin-bottom: 3rem;
+    margin-bottom: 3rem;   
+}
+
+.about-pizza-name{
+    padding-bottom: 0.5rem;
+}
+
+.types-of-pizza{
+    padding-bottom: 0.5rem;
 }
 
 .footer{

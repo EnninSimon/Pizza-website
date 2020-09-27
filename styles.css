@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar-home {
     background-color: #a94442;
     border-color: #e7e7e7;
@@ -64,4 +68,19 @@
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     cursor: pointer;
+}
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #a94442;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 25px;
 }
